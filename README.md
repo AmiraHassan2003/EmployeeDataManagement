@@ -67,7 +67,8 @@ Employee Data Management
 
 
 
-    files
+    Files
+    
         *main.py
             -> Includes the menu from which the user will choose.
         *Employee.py
