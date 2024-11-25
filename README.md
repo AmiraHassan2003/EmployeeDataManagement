@@ -69,19 +69,27 @@ Employee Data Management
 
     Files
     
-        *main.py
+        - main.py
             -> Includes the menu from which the user will choose.
-        *Employee.py
+        - Employee.py
             -> Include setter and getter for id, name, position, salary, email
-        *sourceMain.py
+        - sourceMain.py
             -> Include methods and objects from employee manager used in main.py
-        *FileHandlingCSV.py in FileHandling
+            -> addEmployeeChoice, updateEmployeeChoice, deleteEmployeeChoice, searchEmployeeChoice, viewAllEmployeeChoice, separator
+        - FileHandlingCSV.py in FileHandling
             -> To create file csv, make CRUD operations
-        *FileHandlingImp.py in FileHandling
+            -> private methods
+                - deleteAllData, addLine
+        - FileHandlingImp.py in FileHandling
             -> This is abstract class for FileHandlingCSV.py
-        *EmployeeManager.py in Manager
+            -> add, get, update, delete, search
+        - EmployeeManager.py in Manager
             -> Include all the processes that the user will use.
-        *EmployeeManagerImp.py in Manager
-            -> This is abstract class for EmployeeManagerImp.py
+            -> private methods 
+                - checkEmail, 
+            -> getIdEmployees
+        - EmployeeManagerImp.py in Manager
+            -> This is abstract class for EmployeeManager.py
+            -> addEmployee, viewAllEmployees, updateName, updatePosition, updateSalary, updateEmail, deleteEmployee, searchEmployee
         
     
