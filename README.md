@@ -1,6 +1,8 @@
 Employee Data Management
 
+    
     This project is for the manager to manage the employee operations in any department.
+
     
     Manager
         Adding a new employee.
