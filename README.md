@@ -68,12 +68,19 @@ Employee Data Management
 
 
     files
-        - main.py => Includes the menu from which the user will choose.
-        - Employee.py => Include setter and getter for id, name, position, salary, email
-        - sourceMain.py => Include methods and objects from employee manager used in main.py
-        - FileHandlingCSV.py in FileHandling => To create file csv, make CRUD operations
-        - FileHandlingImp.py in FileHandling => This is abstract class for FileHandlingCSV.py
-        - EmployeeManager.py in Manager => Include all the processes that the user will use.
-        - EmployeeManagerImp.py in Manager => This is abstract class for EmployeeManagerImp.py
+        *main.py
+            -> Includes the menu from which the user will choose.
+        *Employee.py
+            -> Include setter and getter for id, name, position, salary, email
+        *sourceMain.py
+            -> Include methods and objects from employee manager used in main.py
+        *FileHandlingCSV.py in FileHandling
+            -> To create file csv, make CRUD operations
+        *FileHandlingImp.py in FileHandling
+            -> This is abstract class for FileHandlingCSV.py
+        *EmployeeManager.py in Manager
+            -> Include all the processes that the user will use.
+        *EmployeeManagerImp.py in Manager
+            -> This is abstract class for EmployeeManagerImp.py
         
     
