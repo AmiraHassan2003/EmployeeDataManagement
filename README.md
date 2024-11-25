@@ -10,6 +10,7 @@ Employee Data Management
         Searching for an employee by their unique ID.
         Saving and retrieving employee data using a CSV file.
 
+        
     
     Display
       Enter the number that represents the service
@@ -61,3 +62,16 @@ Employee Data Management
     
        - If there is no data, this message will appear "Employees not found", otherwise, there will be data for all employees.
 
+
+
+
+    files
+        - main.py => Includes the menu from which the user will choose.
+        - Employee.py => Include setter and getter for id, name, position, salary, email
+        - sourceMain.py => Include methods and objects from employee manager used in main.py
+        - FileHandlingCSV.py in FileHandling => To create file csv, make CRUD operations
+        - FileHandlingImp.py in FileHandling => This is abstract class for FileHandlingCSV.py
+        - EmployeeManager.py in Manager => Include all the processes that the user will use.
+        - EmployeeManagerImp.py in Manager => This is abstract class for EmployeeManagerImp.py
+        
+    
